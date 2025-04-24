@@ -594,42 +594,49 @@
     <main id="main">
       <!-- Page Layout -->
       <!-- Home Hero Module -->
-      <div class="carousel" id="carousel">
-        <div class="carousel-track">
-          <!-- Slide 1 -->
-          <div class="carousel-slide">
-            <img src="./assets/hero1.JPG" alt="Slide 1" />
-            <div class="carousel-content">
-              <h1>Redefining Beauty</h1>
-              <a class="btn " href="./contact.html">Schedule a consultation</a>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="carousel-slide">
-            <img src="assets/004.jpg" alt="Slide 2" />
-            <div class="carousel-content">
-              <h1>Natural Results</h1>
-              <a class="btn" href="./contact.html">Book Your Appointment</a>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-slide">
-            <img src="assets/005.jpg" alt="Slide 3" />
-            <div class="carousel-content">
-              <h1>Expert Care</h1>
-              <a class="btn" href="./contact.htmll">Meet Our Team</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Controls -->
-        <div class="carousel-controls">
-          <button id="prev">&#10094;</button>
-          <button id="next">&#10095;</button>
-        </div>
+     <div class="carousel" id="carousel" aria-label="Image carousel">
+  <div class="carousel-track">
+    <!-- Slide 1 -->
+    <div class="carousel-slide" aria-hidden="false">
+      <img src="./assets/hero1.JPG" alt="Redefining Beauty" />
+      <div class="carousel-content">
+        <h1>Redefining Beauty</h1>
+        <a class="btn" href="./contact.html">Schedule a consultation</a>
       </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-slide" aria-hidden="true">
+      <img src="assets/004.jpg" alt="Natural Results" />
+      <div class="carousel-content">
+        <h1>Natural Results</h1>
+        <a class="btn" href="./contact.html">Book Your Appointment</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-slide" aria-hidden="true">
+      <img src="assets/005.jpg" alt="Expert Care" />
+      <div class="carousel-content">
+        <h1>Expert Care</h1>
+        <a class="btn" href="./contact.html">Meet Our Team</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="carousel-controls">
+    <button id="prev" aria-label="Previous slide">&#10094;</button>
+    <button id="next" aria-label="Next slide">&#10095;</button>
+  </div>
+  
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button class="indicator active" aria-label="Go to slide 1"></button>
+    <button class="indicator" aria-label="Go to slide 2"></button>
+    <button class="indicator" aria-label="Go to slide 3"></button>
+  </div>
+</div>
       <!-- Logo List Module -->
 
       <div class="mod_logo_list container" data-s3-module>

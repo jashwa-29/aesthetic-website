@@ -15643,6 +15643,23 @@ header.light
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .carousel {
+    margin-top: 0px; /* Reduced margin for mobile and tablet */
+    height: auto;
+  }
+  .carousel-slide img {
+    width: 100%;
+
+  
+  object-fit: contain;
+  }
+
+  .carousel-indicators {
+    display: none; /* Hide indicators on mobile and tablet */
+  }
+}
+
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
